@@ -1,0 +1,92 @@
+body {
+    background: rgb(168,19,184);
+    background: -moz-radial-gradient(circle, rgba(168,19,184,1) 0%, rgba(0,0,0,0.9976190305223652) 100%);
+    background: -webkit-radial-gradient(circle, rgba(168,19,184,1) 0%, rgba(0,0,0,0.9976190305223652) 100%);
+    background: radial-gradient(circle, rgba(168,19,184,1) 0%, rgba(0,0,0,0.9976190305223652) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#a813b8",endColorstr="#000000",GradientType=1); 
+    background-size: cover;
+   
+}
+
+.profile-pick {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 10%;
+    height: auto;
+    max-width: 100px;
+
+    border-radius: 50%;
+}
+
+.profile-name {
+    text-align: center;
+
+    padding: 30px;
+    font-size: 28px;
+    font-family: 'Bebas Neue', cursive;;
+}
+.links {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-width: 2px;
+    color: white;
+    width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+
+}
+.a {
+    text-decoration: none;
+
+    color: rgb(243, 3, 3);
+    transition: color 1s;
+
+    font-family: 'Bebas Neue', cursive;
+    position: center;
+    display: inline-block; 
+    text-transform: uppercase;
+    overflow: hidden;
+    transition: 0,2s;
+}
+a:hover {
+    color: black;
+    font-family: 'Bebas Neue', cursive;
+    background-color: white;
+    box-shadow: 0 0 10px #219, 0 0 40px #219421, 0 0 80px #219421
+
+}
+    
+   
+.credit {
+    text-align: center;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-width: 0.5px;
+    color: white;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+
+    font-size: 12px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+}
+.credit:hover {
+    border-width: 2px;
+    color: black;
+    width: 125px;
+    transition: 0.5;
+}
